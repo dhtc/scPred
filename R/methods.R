@@ -283,7 +283,6 @@ plotPred = TRUE){
         p <- p +  geom_density_2d()
     }
     p <- p +
-    scale_color_brewer(palette = "Set1") +
     theme_bw()
     
     if(any("Prediction" == pcaAll$dataset) & plotPred){
